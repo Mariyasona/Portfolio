@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariya Sona Antony | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="experience.html">Experience</a>
+    <a href="achievements.html">Achievements</a>
+    <a href="contact.html">Contact</a>
+    <a href="skills.html">Skills</a>
+</nav>
+
+<div class="hero">
+
+    <img src="profile.jpg" alt="Profile Photo">
+
+    <h1>Mariya Sona Antony</h1>
+
+    <h2>B.Sc Physics(HONS.) Student</h2>
+<h2>
+    <span id="typing"></span>
+</h2>
+
+<script>
+const text = "Future Medical Physicist | AI Enthusiast | GIS & LiDAR Learner";
+let i = 0;
+
+function typeWriter(){
+    if(i < text.length){
+        document.getElementById("typing").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typeWriter, 70);
+    }
+}
+
+window.onload = typeWriter;
+</script>
+
+    <p>
+        Future Medical Physicist • AI Enthusiast • GIS & LiDAR Learner
+    </p>
+    <p class="quote">
+"Learning today, discovering tomorrow."
+</p>
+<p style="margin-top:40px;font-size:30px;">
+⬇
+</p>
+
+    <a href="about.html">
+        <button>Explore My Portfolio →</button>
+    </a>
+
+
+
+
+</div>
+<footer>
+    <p>© 2026 Mariya Sona Antony</p>
+    <p>B.Sc Physics(HONS.) Student</p>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
